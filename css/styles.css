@@ -1,0 +1,19 @@
+.header{
+    height: 620px;
+    background-image: url("../img/header-background.jpg");
+    background-size: cover;
+    background-position: 50% 20%;
+}
+
+.header-navbar-links{
+    color: white;
+    float: right;
+    margin-top: 50px;
+}
+
+.header-navbar-links li {
+    float: left;
+    list-style-type: none;
+    margin-left: 25px;
+    border-color: white;
+}
