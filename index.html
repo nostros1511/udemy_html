@@ -7,13 +7,17 @@
         <!-- Verwendung von Skeleton, damit gleiche Designs in den verschiedenen Browsern -->
         <link rel="stylesheet" type="text/css" href="./vendor/skeleton/normalize.css" />
         <link rel="stylesheet" type="text/css" href="./vendor/skeleton/skeleton.css" />
-        <link rel="stylesheet" type="text/css" href="./css/styles.css" /> 
+        <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:200,300,400,700" rel="stylesheet"> 
 
     </head>
 
     <body>
         <header class="header"> <!-- wie div, aber semantische Unterscheidung, z.b. für Suchmaschine-->
             <div class="container">
+                <div class="header-brand-wrapper">
+                    <a class="header-brand" href="index.html">ESCAPE</a>
+                </div>
                 <nav class="header-navbar"> <!-- wie div, aber semantische Unterscheidung, z.b. für Suchmaschine-->
                     <ul class="header-navbar-links"> <!-- unordered list -->
                         <li>Home</li> <!-- list item -->
@@ -23,8 +27,43 @@
                         <li>Contact</li>
                     </ul>
                 </nav>
-            </container>
+            </div> <!-- end: container -->
+            <div class="container">
+                <div class="slogan">
+                    <div class="slogan-top">
+                        Können Sie eine Webseite für uns entwickeln?
+                    </div>
+                    <div class ="slogan-bottom">
+                        Ja, wir können das!
+                    </div>
+                    <button class="slogan-button">
+                        Mehr erfahren!
+                    </button>
+                </div>
+            </div> <!-- end: container -->
         </header>
+
+        <div class="service">
+            <div class="container">
+                <div class="row">
+                    <div class="eight columns">
+                        <h1>Web <strong>Development</strong></h1>   
+                        <p>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                        </p>  
+                        <p>
+                            At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                        </p>             
+                    </div>        
+                    <div class="four columns">
+                        4
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+            </div>            
+        </div>
 
     </body>
 </html>
